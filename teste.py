@@ -30,6 +30,9 @@ def mostrar_comentarios():
     for i, c in enumerate(comentarios, start=1):
         print(f"[{i}] {c.text().strip()}")
 
+    def func():
+        pass
+    
 # Executa a função principal
 if __name__ == "__main__":
     mostrar_comentarios()
